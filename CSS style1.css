@@ -1,0 +1,147 @@
+
+.container2{
+    padding: 40px;
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    background-color: rgb(209, 209, 245);
+    background: url("Vinculos/styles 2/IMG/BACK.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+ol{
+    text-align: center;
+}
+li{
+    font-size: 18px;
+}
+table{
+    margin: 0 auto;
+    padding: 0px;
+    width: 80%;
+    height: 100%;
+    border: 3px solid rgb(22, 19, 19);
+    border-collapse: collapse;
+    overflow: auto;
+}
+tr{
+    padding: 100px;
+    width: 100%;
+    border: 3px solid black;
+}
+th{
+    padding: 20px;
+    width: 60%;
+    border: 3px solid black;
+    background-color: rgb(105, 129, 240);
+}
+td{
+    padding: 20px;
+    width: 60%;
+    border: 3px solid black;
+    background-color: white;
+}
+.data-zeldaOcarina, .data-zeldaLinkToThePass, .data-zeldaBreatOf{
+    padding: 80px;
+    width: 50%;   
+    font-size: 20px; 
+    border-radius: 10px;
+    transition-duration: 1s;
+    box-shadow: 0px 0px 1px black;
+}
+.data-zeldaOcarina:hover{
+    box-shadow: 0px 0px 20px black;
+    border-radius: 50px;
+}
+.data-zeldaLinkToThePass:hover{
+    box-shadow: 0px 0px 20px black;
+    border-radius: 50px;
+}
+.data-zeldaBreatOf:hover{
+    box-shadow: 0px 0px 20px black;
+    border-radius: 50px;
+}
+.data-zeldaOcarina{
+    margin: 0 auto;
+    background-color: brown;
+}
+.data-zeldaLinkToThePass{
+    margin: 0 auto;
+    background-color: brown;
+}
+.data-zeldaBreatOf{
+    margin: 0 auto;
+    background-color: brown;
+}
+img{
+    padding: 3px;
+    width: 90%;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 1px rgb(0,0,0);
+}
+
+img:hover{
+    box-shadow: 0px 0px 14px rgba(0,0,0);
+}
+.container3{
+    padding: 10px;
+    width: 100%;
+    background-color: blue;
+}
+.row{
+    padding: 10px;
+    width: 100%;
+}
+.col-md-8{
+    padding: 10px;
+    width: 100%;
+}
+.col-md-4{
+    padding: 10px;
+    width: 100%;
+    max-width: 1300px;
+    height: 600px;
+    background: url("Vinculos/styles 2/IMG/Links.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .data-zeldaOcarina, .data-zeldaLinkToThePass, .data-zeldaBreatOf{
+        padding: 20px;
+        width: 90%;
+    }
+    .data-zeldaOcarina{
+        background-color: blueviolet;
+    }
+    .data-zeldaLinkToThePass{
+        background-color: blueviolet;
+    }
+    .data-zeldaBreatOf{
+        background-color: blueviolet;
+    }
+}
+@media screen and (max-width: 400px) {
+    .data-zeldaOcarina, .data-zeldaLinkToThePass, .data-zeldaBreatOf{
+        padding: 5px;
+        width: 90%;
+    }
+    .data-zeldaOcarina{
+        background-color: aqua;
+    }
+    .data-zeldaLinkToThePass{
+        background-color: aqua;
+    }
+    .data-zeldaBreatOf{
+        background-color: aqua;
+    }
+    .col-md-4{
+        background-size: cover;
+    }
+}

@@ -1,0 +1,41 @@
+body{
+    color: white;
+    background-color: rgb(34, 31, 31);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 40px;
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+    background-color: blanchedalmond;
+    background: url('IMG/BACK.png');
+    
+}
+h1{
+    color: rgb(48, 9, 9);
+    font-size: 30px;
+    text-decoration: dashed;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+#foot{
+    color: white;
+}
+
+@media screen and (max-width: 679px) {
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
+}

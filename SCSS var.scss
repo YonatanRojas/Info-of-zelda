@@ -1,0 +1,41 @@
+
+$colores:(
+    "negro": "black",
+    "violeta":"blueviolet"
+);
+$fuentes: (
+    "px1" : 32px,
+    "alineacion" : center,
+    "fuente-madre" : "Arial, Helvetica, sans-serif"
+);
+#container{
+    padding: 0px 30px 0px 30px;
+    width: 100%;
+    overflow: hidden;
+    background: url("Vinculos/styles 2/IMG/BACK.png");
+    #title{
+        color: map-get($colores, "negro");
+        font-size: map-get($fuentes, "px1");
+        text-align: map-get($fuentes, "alineacion");
+        font-family: map-get($fuentes, "fuente-madre");
+    }
+}
+
+%rp-ol-div-body{
+    padding: 1ch 1ch;
+    color: #333;
+}
+
+.rp{
+    @extend %rp-ol-div-body;
+}
+.good{
+    @extend %rp-ol-div-body;
+    box-shadow: 0px 0px 5px rgb(69, 128, 240);
+    font-size: 20px
+}
+.error{
+    @extend %rp-ol-div-body;
+    box-shadow: 5px solid black;
+}
+
